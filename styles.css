@@ -5,11 +5,16 @@
     font-family: Montserrat, sans-serif;
     box-sizing: border-box;
     color: white;
+
 }
 
 html {
     background-color: black;
     background-image: url();
+}
+
+body {
+    overflow-x: hidden;
 }
 
 header {
@@ -27,7 +32,7 @@ header {
 }
 
 .header-img {
-    width: 500px;
+    width: 550px;
 }
 
 .divider {
@@ -90,7 +95,7 @@ section {
 }
 
 section > img {
-    width: 500px;
+    width: 600px;
 
 }
 
@@ -100,6 +105,10 @@ p {
 
 section > h2 {
     margin-bottom: 1rem;
+}
+
+footer {
+    padding: 1rem;
 }
 
 @media (max-width: 650px) {
@@ -133,6 +142,11 @@ footer {
     margin-top: 6rem;
     background-color: rgb(37, 37, 61);
     min-height: 200px;
+    word-wrap: break-word;
+}
+
+.special-guy {
+    background-color: white;
 }
 
 @media (max-width: 1000px) {
